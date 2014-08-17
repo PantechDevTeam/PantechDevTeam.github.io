@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="PantechDevTeam/android_device_pantech_presto" path="device/pantech/presto" remote="github" />
+   <project name="PantechDevTeam/android_device_pantech_msm8x60-common" path="device/pantech/msm8x60-common" remote="github" />
+  <project name="PantechDevTeam/android_device_pantech_msm8660-common" path="device/pantech/msm8660-common" remote="github" />
+  <project name="PantechDevTeam/android_kernel_pantech_msm8660-common" path="kernel/pantech/msm8660-common" remote="github" />
+  <project name="PantechDevTeam/android_vendor_pantech_msm8x60-common" path="vendor/pantech/msm8x60-common" remote="github" />
+  <project name="PantechDevTeam/android_vendor_pantech_presto" path="vendor/pantech/presto" remote="github" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_hardware_broadcom_wlan" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <project name="PantechDevTeam/android_frameworks_base" path="frameworks/base" remote="github" />
+  <project name="PantechDevTeam/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" />
+  <project name="PantechDevTeam/android_frameworks_av" path="frameworks/av" remote="github" />
+  <project name="PantechDevTeam/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" />
+  <project name="PantechDevTeam/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" />
+</manifest>
