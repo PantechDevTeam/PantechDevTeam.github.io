@@ -11,9 +11,11 @@
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project name="PantechDevTeam/android_frameworks_base" path="frameworks/base" remote="github" />
   <project name="PantechDevTeam/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" />
   <project name="PantechDevTeam/android_frameworks_av" path="frameworks/av" remote="github" />
   <project name="PantechDevTeam/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" />
   <project name="PantechDevTeam/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" />
+  <project name="PantechDevTeam/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" />
 </manifest>
