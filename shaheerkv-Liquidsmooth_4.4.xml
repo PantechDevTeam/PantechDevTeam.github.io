@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="shaheerkv/android_device_pantech_presto" path="device/pantech/presto" remote="gh" revision="ls-kk" />
+  <project name="PantechDevTeam/android_device_pantech_msm8x60-common" path="device/pantech/msm8x60-common" remote="gh" revision="cm-11.0" />
+  <project name="PantechDevTeam/android_device_pantech_msm8660-common" path="device/pantech/msm8660-common" remote="gh" revision="cm-11.0" />
+  <project name="shaheerkv/android_kernel_pantech_msm8660-common" path="kernel/pantech/msm8660-common" remote="gh" revision="ls" />
+  <project name="PantechDevTeam/android_vendor_pantech_msm8x60-common" path="vendor/pantech/msm8x60-common" remote="gh" revision="cm-11.0" />
+  <project name="PantechDevTeam/android_vendor_pantech_presto" path="vendor/pantech/presto" remote="gh" revision="cm-11.0" />
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_av" />
+  <remove-project name="android_hardware_libhardware_legacy" />
+  <remove-project name="android_hardware_broadcom_wlan" />
+  <remove-project name="android_external_wpa_supplicant_8" />
+  <remove-project name="android_hardware_qcom_audio-caf" />
+  <project name="shaheerkv/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="gh" revision="kitkat" />
+  <project name="shaheerkv/android_frameworks_base" path="frameworks/base" remote="gh" revision="kitkat3" />
+  <project name="shaheerkv/android_frameworks_av" path="frameworks/av" remote="gh" revision="kitkat" />
+  <project name="shaheerkv/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="gh" revision="kitkat" />
+  <project name="PantechDevTeam/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="gh" revision="cm-11.0" />
+  <project name="PantechDevTeam/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="gh" revision="cm-11.0" />
+</manifest>
+
+
